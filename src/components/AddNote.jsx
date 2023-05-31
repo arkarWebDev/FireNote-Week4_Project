@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AddNote = () => {
+const AddNote = ({ getNotes }) => {
   // define state
   const [note, setNote] = useState("");
 
@@ -20,6 +20,7 @@ const AddNote = () => {
         }
       );
       setNote("");
+      getNotes();
     } catch (err) {
       alert("Something went wrong. Try again later.");
     }

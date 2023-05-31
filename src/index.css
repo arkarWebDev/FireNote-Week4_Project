@@ -51,7 +51,31 @@ input {
   font-size: 30px;
 }
 
-.nav button {
+.nav p {
   background-color: cornflowerblue;
   color: #fff;
+  cursor: default;
+}
+
+.message {
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 20px;
+  max-width: 20px 0;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.intro,
+.intro h1 {
+  text-align: center;
+  color: cornflowerblue;
 }
